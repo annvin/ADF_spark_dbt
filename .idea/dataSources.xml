@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Databricks" uuid="1941c096-fc07-49f1-8c44-703e3b331519">
+      <driver-ref>databricks</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.databricks.client.jdbc.Driver</jdbc-driver>
+      <jdbc-url>adb-1231056137383159.19.azuredatabricks.net</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
