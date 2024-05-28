@@ -5,10 +5,10 @@
 **Azure Cloud**
 
 1.In azure cloud create a sql database called medallion-db-dev with the sample database of Adventure Works using SalesLT schema
-2.	An azure data lake gen2 called adlspromedallion with the medallion architecture containing bronze, silver and gold layers.
-3.	Used Azure Data Factory with activities
-a) Lookup - to fetch the list of schema name and base tables 
-b) for each enumerator, copy data activity and databricks notebook to load data within these tables and mount to a bronze layer in adls gen 2 as parquet files
+2.An azure data lake gen2 called adlspromedallion with the medallion architecture containing bronze, silver and gold layers.
+3.Used Azure Data Factory with activities
+a)Lookup - to fetch the list of schema name and base tables 
+b)for each enumerator, copy data activity and databricks notebook to load data within these tables and mount to a bronze layer in adls gen 2 as parquet files
 
 **DBT**
 
